@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Usuario\\Desktop\\Programas\\CursoNET\\IntroConsole\\IntroConsole.csproj": {}
+    "C:\\Users\\Usuario\\Desktop\\Programas\\CursoNET\\IntroConsole\\Etapa-1\\IntroConsole.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Usuario\\Desktop\\Programas\\CursoNET\\IntroConsole\\IntroConsole.csproj": {
+    "C:\\Users\\Usuario\\Desktop\\Programas\\CursoNET\\IntroConsole\\Etapa-1\\IntroConsole.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\Programas\\CursoNET\\IntroConsole\\IntroConsole.csproj",
+        "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\Programas\\CursoNET\\IntroConsole\\Etapa-1\\IntroConsole.csproj",
         "projectName": "IntroConsole",
-        "projectPath": "C:\\Users\\Usuario\\Desktop\\Programas\\CursoNET\\IntroConsole\\IntroConsole.csproj",
+        "projectPath": "C:\\Users\\Usuario\\Desktop\\Programas\\CursoNET\\IntroConsole\\Etapa-1\\IntroConsole.csproj",
         "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuario\\Desktop\\Programas\\CursoNET\\IntroConsole\\obj\\",
+        "outputPath": "C:\\Users\\Usuario\\Desktop\\Programas\\CursoNET\\IntroConsole\\Etapa-1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
