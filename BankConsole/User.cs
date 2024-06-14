@@ -1,15 +1,18 @@
+using Newtonsoft.Json;
+
 namespace BankConsole;
 
-public class User{
-    private int ID {get;set;}
-    private string Name {get; set;}
-    private string Email { get; set; }
-    private decimal Balance {get;set;}
-    private DateTime RegisterDate { get; set; }
-
-    public User(){
-        this.Balance = 1000;
-    }
+public class User: Person{
+    [JsonProperty]
+    protected int ID {get;set;}
+    [JsonProperty]
+    protected string Name {get; set;}
+    [JsonProperty]
+    protected string Email { get; set; }
+    [JsonProperty]
+    protected decimal Balance {get;set;}
+    [JsonProperty]
+    protected DateTime RegisterDate { get; set; }
 
     public User(int ID, string Name, string Email, decimal Balance){
         this.ID = ID;
@@ -19,7 +22,7 @@ public class User{
         this.RegisterDate = DateTime.Now;
     }
 
-    public void SetBalance(decimal amount){
+    public virtual void SetBalance(decimal amount){
         decimal quantity = 0; 
         if(amount <0){
             quantity = 0;
@@ -30,11 +33,16 @@ public class User{
         this.Balance += quantity;
     }
     
-    public string ShowData(){
-        return $"Nombre: {this.Name}, Correo: {this.Email}, Saldo: {this.Balance}, fecha de registro: {this.RegisterDate}."; 
+    public virtual string ShowData(){
+        return $"Nombre: {this.Name}, Correo: {this.Email}, Saldo: {this.Balance}, fecha de registro: {this.RegisterDate.ToShortDateString()}"; 
     }
     
     public string ShowData(string initialMessage){
         return $"{initialMessage} - > Nombre: {this.Name}, Correo: {this.Email}, Saldo: {this.Balance}, fecha de registro: {this.RegisterDate}."; 
+    }
+
+    public override string GetName()
+    {
+        return Name;
     }
 }

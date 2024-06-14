@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "iSZA7+o2fE0=",
+  "dgSpecHash": "QVJ4OYNMyaI=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Usuario\\Desktop\\Programas\\CursoNET\\Etapa-2\\BankConsole\\BankConsole.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Usuario\\Desktop\\Programas\\CursoNET\\etapa-2\\BankConsole\\BankConsole.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Usuario\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
   "logs": []
 }

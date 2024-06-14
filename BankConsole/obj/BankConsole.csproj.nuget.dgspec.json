@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Usuario\\Desktop\\Programas\\CursoNET\\Etapa-2\\BankConsole\\BankConsole.csproj": {}
+    "C:\\Users\\Usuario\\Desktop\\Programas\\CursoNET\\etapa-2\\BankConsole\\BankConsole.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Usuario\\Desktop\\Programas\\CursoNET\\Etapa-2\\BankConsole\\BankConsole.csproj": {
+    "C:\\Users\\Usuario\\Desktop\\Programas\\CursoNET\\etapa-2\\BankConsole\\BankConsole.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\Programas\\CursoNET\\Etapa-2\\BankConsole\\BankConsole.csproj",
+        "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\Programas\\CursoNET\\etapa-2\\BankConsole\\BankConsole.csproj",
         "projectName": "BankConsole",
-        "projectPath": "C:\\Users\\Usuario\\Desktop\\Programas\\CursoNET\\Etapa-2\\BankConsole\\BankConsole.csproj",
+        "projectPath": "C:\\Users\\Usuario\\Desktop\\Programas\\CursoNET\\etapa-2\\BankConsole\\BankConsole.csproj",
         "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuario\\Desktop\\Programas\\CursoNET\\Etapa-2\\BankConsole\\obj\\",
+        "outputPath": "C:\\Users\\Usuario\\Desktop\\Programas\\CursoNET\\etapa-2\\BankConsole\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -44,6 +44,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

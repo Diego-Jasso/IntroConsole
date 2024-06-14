@@ -1,11 +1,13 @@
 ﻿using BankConsole;
 
-User diego = new User(1,"Diego","1234@gmail.com",3500);
+Client diego = new Client(1,"Diego","1234@gmail.com",3500,'M');
 
-diego.SetBalance(-30);
+diego.SetBalance(3900);
 
-Console.WriteLine(diego.ShowData("La info del usuario es"));
+Console.WriteLine(diego.ShowData());
 
-User juan = new User(2,"Juan","1234@uanl.edu.mx",1340);
+Employee pedro = new Employee(2,"Juan","12354@gmail.com",3000,"IT");
 
-Console.WriteLine(juan.ShowData()); 
+pedro.SetBalance(700);
+
+Console.WriteLine(pedro.ShowData());

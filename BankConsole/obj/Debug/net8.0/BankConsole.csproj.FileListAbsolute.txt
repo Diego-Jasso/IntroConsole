@@ -12,3 +12,7 @@ C:\Users\Usuario\Desktop\Programas\CursoNET\etapa-2\bankconsole\obj\Debug\net8.0
 C:\Users\Usuario\Desktop\Programas\CursoNET\etapa-2\bankconsole\obj\Debug\net8.0\BankConsole.pdb
 C:\Users\Usuario\Desktop\Programas\CursoNET\etapa-2\bankconsole\obj\Debug\net8.0\BankConsole.genruntimeconfig.cache
 C:\Users\Usuario\Desktop\Programas\CursoNET\etapa-2\bankconsole\obj\Debug\net8.0\ref\BankConsole.dll
+C:\Users\Usuario\Desktop\Programas\CursoNET\etapa-2\BankConsole\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\Usuario\Desktop\Programas\CursoNET\etapa-2\BankConsole\obj\Debug\net8.0\BankConsole.csproj.AssemblyReference.cache
+C:\Users\Usuario\Desktop\Programas\CursoNET\etapa-2\BankConsole\obj\Debug\net8.0\BankConsole.sourcelink.json
+C:\Users\Usuario\Desktop\Programas\CursoNET\etapa-2\BankConsole\obj\Debug\net8.0\BankCons.9D09B4EA.Up2Date
