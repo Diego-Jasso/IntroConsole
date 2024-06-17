@@ -1,0 +1,26 @@
+[
+  {
+    "Department": "IT",
+    "ID": 1,
+    "Name": "Diego ",
+    "Email": "diego@gmail.com",
+    "Balance": 1295.7,
+    "RegisterDate": "2024-06-16T23:30:32.6191082-06:00"
+  },
+  {
+    "Taxregime": "M",
+    "ID": 2,
+    "Name": "Diego ",
+    "Email": "jassi@iosa",
+    "Balance": 804.78,
+    "RegisterDate": "2024-06-16T23:32:32.8090176-06:00"
+  },
+  {
+    "Department": "IT",
+    "ID": 4,
+    "Name": "asdas",
+    "Email": "asdad@dasdad",
+    "Balance": 2.415,
+    "RegisterDate": "2024-06-16T23:32:51.6105607-06:00"
+  }
+]
