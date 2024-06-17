@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = BankConsole
-build_property.ProjectDir = C:\Users\Usuario\Desktop\Programas\CursoNET\Etapa-2\BankConsole\
+build_property.ProjectDir = C:\Users\djasso\source\repos\CursoNET\IntroConsole\bankconsole\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

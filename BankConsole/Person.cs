@@ -8,3 +8,9 @@ public abstract class Person{
         return "México";
     }
 }
+
+public interface IPerson{
+    string  GetName();
+
+    string GetCountry();
+}

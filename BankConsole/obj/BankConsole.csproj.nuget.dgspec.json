@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Usuario\\Desktop\\Programas\\CursoNET\\etapa-2\\BankConsole\\BankConsole.csproj": {}
+    "C:\\Users\\djasso\\source\\repos\\CursoNET\\IntroConsole\\bankconsole\\BankConsole.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Usuario\\Desktop\\Programas\\CursoNET\\etapa-2\\BankConsole\\BankConsole.csproj": {
+    "C:\\Users\\djasso\\source\\repos\\CursoNET\\IntroConsole\\bankconsole\\BankConsole.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\Programas\\CursoNET\\etapa-2\\BankConsole\\BankConsole.csproj",
+        "projectUniqueName": "C:\\Users\\djasso\\source\\repos\\CursoNET\\IntroConsole\\bankconsole\\BankConsole.csproj",
         "projectName": "BankConsole",
-        "projectPath": "C:\\Users\\Usuario\\Desktop\\Programas\\CursoNET\\etapa-2\\BankConsole\\BankConsole.csproj",
-        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuario\\Desktop\\Programas\\CursoNET\\etapa-2\\BankConsole\\obj\\",
+        "projectPath": "C:\\Users\\djasso\\source\\repos\\CursoNET\\IntroConsole\\bankconsole\\BankConsole.csproj",
+        "packagesPath": "C:\\Users\\djasso\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\djasso\\source\\repos\\CursoNET\\IntroConsole\\bankconsole\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\djasso\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.2.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,7 +26,9 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "C:\\Program Files\\DevExpress 22.2\\Components\\System\\Components\\Packages": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/c6rXhg1PWT1bDUUYnlncDwPe1nmUJmQ3uWk1VfREvaJVAEsiEu/api": {}
         },
         "frameworks": {
           "net8.0": {
@@ -45,6 +51,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "MailKit": {
+              "target": "Package",
+              "version": "[4.6.0, )"
+            },
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.3, )"
@@ -66,7 +76,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.301/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

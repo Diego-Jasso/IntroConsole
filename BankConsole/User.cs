@@ -2,7 +2,7 @@ using Newtonsoft.Json;
 
 namespace BankConsole;
 
-public class User: Person{
+public class User {
     [JsonProperty]
     protected int ID {get;set;}
     [JsonProperty]
@@ -14,12 +14,19 @@ public class User: Person{
     [JsonProperty]
     protected DateTime RegisterDate { get; set; }
 
+    public User(){}
     public User(int ID, string Name, string Email, decimal Balance){
         this.ID = ID;
         this.Name = Name;
         this.Email = Email;
-        SetBalance(Balance);
         this.RegisterDate = DateTime.Now;
+    }
+
+    public int GetID(){
+            return ID;
+    }
+    public DateTime GetRegisterDate(){
+        return RegisterDate;
     }
 
     public virtual void SetBalance(decimal amount){
@@ -32,17 +39,12 @@ public class User: Person{
         
         this.Balance += quantity;
     }
-    
+
     public virtual string ShowData(){
-        return $"Nombre: {this.Name}, Correo: {this.Email}, Saldo: {this.Balance}, fecha de registro: {this.RegisterDate.ToShortDateString()}"; 
+        return $"ID: {this.ID}, Nombre: {this.Name}, Correo: {this.Email}, Saldo: {this.Balance}, fecha de registro: {this.RegisterDate.ToShortDateString()}"; 
     }
     
     public string ShowData(string initialMessage){
         return $"{initialMessage} - > Nombre: {this.Name}, Correo: {this.Email}, Saldo: {this.Balance}, fecha de registro: {this.RegisterDate}."; 
-    }
-
-    public override string GetName()
-    {
-        return Name;
     }
 }
